@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOP-5</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="lion"
+        width="300"
+        src="./images/herb.jpg"
+        alt="English football lion"
+      />
+      <h1 id="h-title">TOP-5 of English Premier League Clubs</h1>
+      <ol>
+        <li>
+          <div class="flex">
+            <p id="first-club"></p>
+            <button id="remove-first-club-button" class="remove" type="submit">
+              x
+            </button>
+          </div>
+        </li>
+        <li>
+          <div class="flex">
+            <p id="second-club"></p>
+            <button id="remove-second-club-button" class="remove" type="submit">
+              x
+            </button>
+          </div>
+        </li>
+        <li>
+          <div class="flex">
+            <p id="third-club"></p>
+            <button id="remove-third-club-button" class="remove" type="submit">
+              x
+            </button>
+          </div>
+        </li>
+        <li>
+          <div class="flex">
+            <p id="fourth-club"></p>
+            <button id="remove-fourth-club-button" class="remove" type="submit">
+              x
+            </button>
+          </div>
+        </li>
+        <li>
+          <div class="flex">
+            <p id="fifth-club"></p>
+            <button id="remove-fifth-club-button" class="remove" type="submit">
+              x
+            </button>
+          </div>
+        </li>
+      </ol>
+      <form>
+        <label
+          >If you see less than 5 clubs you can add one more:<br />
+          <input id="new-club-name" name="newclub" type="text" />
+        </label>
+        <button id="submit-button" type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="./top5clubs.js"></script>
+  </body>
+</html>
